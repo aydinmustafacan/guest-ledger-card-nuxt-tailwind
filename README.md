@@ -1,5 +1,9 @@
 # nuxt-proj1
 
+### Description
+
+> Simple nuxt tailwind application that lets guests to enter their email with a password and creates a card with the given information
+
 ## Build Setup
 
 ```bash
@@ -22,8 +26,8 @@ $ npm run generate
 ## Docker Build Setup
 
 ```
- $ docker build -t nuxt-tailwind-flashcard .
+ $ docker build -t nuxt-tailwind-guest .
  
- $ docker run --rm -p 80:80 nuxt-tailwind-flashcard
+ $ docker run --rm -p 80:80 nuxt-tailwind-guest
 ```
 
